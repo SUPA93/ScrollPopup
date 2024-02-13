@@ -13,6 +13,10 @@ window.addEventListener("scroll", () => {
     if (scrollValue > 0.45) {
         imgImprovise.style.opacity = "1";
         imgImprovise.style.transform = "none";
+    }else{
+        imgImprovise.style.opacity = "0";
+        imgImprovise.style.transform = "translateX(-500px)";
+        
     }
     //popup
     if (scrollValue > 0.85 && playOnce) {
